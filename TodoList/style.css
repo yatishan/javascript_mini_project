@@ -1,0 +1,94 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#main-div{
+    margin: auto;
+    width: 50%;
+    background-color: rgb(182, 144, 218);
+    border-radius: 10px;
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+.title{
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+.add{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+.add >#input-box{
+    width: 70%;
+    padding: 13px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.add >#add-btn{
+    width: 20%;
+    padding: 5px;
+    background-color: black;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+}
+.mainList{
+    margin: auto;
+    width: 80%;
+    /* padding: 10px; */
+    /* justify-content: space-between; */
+}
+.newlist{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.ptag{
+    display: inline;   
+}
+.newBtnDiv{
+    display: flex;
+    align-items: center;
+}
+.newEditBtn{
+    background-color: black;
+    border: none;
+    color: rgb(6, 235, 6);
+    font-size: 18px;
+    font-weight: bold;
+}
+.newDeleteBtn{
+    background-color: black;
+    border: none;
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+}
+.clear{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.clear .clearBtn{
+    background-color: rgba(47, 10, 81, 0.1);
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+.clear > #text-count{
+    font-size: 13px;
+    color: black;
+    font-weight: bold;
+}
