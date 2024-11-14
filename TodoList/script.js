@@ -60,7 +60,8 @@ clearBtn.addEventListener('click',function(){
     listArray=[];
     myFunction();
     updatCountDisplay();
-})
+});
+
 function updatCountDisplay(){
     let totalTasks=mainList.querySelectorAll('p').length;
     let completeTasks=mainList.querySelectorAll(
@@ -74,3 +75,4 @@ function updatCountDisplay(){
 
 }
 updatCountDisplay();
+
